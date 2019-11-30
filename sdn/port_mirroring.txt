@@ -1,0 +1,9 @@
+#Switched Port Analyzer (SPAN)
+#sometimes called port mirroring or port monitoring, copies switch network traffic and forwards it out the SPAN port for analysis by a network analyzer.
+#By enabling the SPAN, you can monitor traffic on a switch port by forwarding incoming and outgoing traffic to another port for data collection and analysis.
+#Suppose, for instance, that you want to examine traffic flowing in and out of a port, or within a virtual local-area network (VLAN). In a shared network, such as Ethernet
+#The SPAN port mirrors traffic from one or more source interfaces on any VLAN, or from one or more VLANs to a destination port for analysis. 
+#The network analyzer attaches to the SPAN port and examines the traffic as it passes through the switch.  
+
+
+
