@@ -1,0 +1,13 @@
+30/01 
+
+IDS-Intrusion Detection System 
+
+It’s a type of security for computer and networks which helps in detecting outer and inner attacks; 
+
+It is generally placed at a network tap or a switch which is enabled for port mirroring,and passively monitors traffic and performs advanced checks such as protocol and content inspection to detect a possible intrusion.
+
+Types:
+--HIDS(host based IDS)
+ monitors a host based on system calls,application calls 
+--NIDS(n/w based IDS
+) 
