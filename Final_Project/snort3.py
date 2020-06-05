@@ -52,7 +52,7 @@ class SimpleSwitchSnort(app_manager.RyuApp):
 
        
 
-
+    #checks the flow
     def send_divert_flowrule(self, msg):
         
 
@@ -111,7 +111,7 @@ class SimpleSwitchSnort(app_manager.RyuApp):
         actions = [parser.OFPActionOutput(2)] # actions to apply
         # print ('adding flow')    
         #print('here')
-        self.add_flow(datapath, priority, match, actions)
+        self.add_flow(datapath, priority, match, actions) #adds a new flow
     
     def add_flow(self, datapath, priority, match, actions, idle_timeout=0, hard_timeout=0, buffer_id=None):
         ofproto = datapath.ofproto
