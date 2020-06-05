@@ -1,0 +1,2 @@
+#s2
+ovs-ofctl add-flow s2 in_port=1,actions=2 -O OpenFlow13 
